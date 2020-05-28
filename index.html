@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="./lib/math.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="popup" style="display: none;">
+            <button class="popup-btn" onclick="removepopup()">X</button>
+            <p class="popup-text">hello this an error</p>
+        </div>
+        <div class="calculator-container">
+            <div class="display-container">
+                <input class="display" placeholder="0"> 
+                <!-- <h1 class="display">0</h1> -->
+            </div>
+            <div class="btn-container">
+                <div class="firstrow">
+                    <button class="cal-btn dark-btn">AC</button>
+                    <button class="cal-btn dark-btn">(</button>
+                    <button class="cal-btn dark-btn">)</button>
+                    <button class="cal-btn orange-btn">/</button>
+                </div>
+                <div class="secondrow">
+                    <button class="cal-btn">7</button>
+                    <button class="cal-btn">8</button>
+                    <button class="cal-btn">9</button>
+                    <button class="cal-btn orange-btn">*</button>
+                </div>
+                <div class="thirdrow">
+                    <button class="cal-btn">4</button>
+                    <button class="cal-btn">5</button>
+                    <button class="cal-btn">6</button>
+                    <button class="cal-btn orange-btn">-</button>
+                </div>
+                <div class="fourthrow">
+                    <button class="cal-btn">1</button>
+                    <button class="cal-btn">2</button>
+                    <button class="cal-btn">3</button>
+                    <button class="cal-btn orange-btn">+</button>
+                </div>
+                <div class="fifthrow">
+                    <button class="cal-btn special-btn">0</button>
+                    <button class="cal-btn">.</button>
+                    <button class="cal-btn orange-btn">=</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
