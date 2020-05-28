@@ -1,0 +1,106 @@
+body{
+    background: whitesmoke;
+    font-family: 'Open Sans Condensed',
+    sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-container {
+    width: 332px;
+    text-align: center;
+    margin-top: 55px;
+    box-shadow: 0px 0px 20px 0px #aaa;
+}
+
+.cal-btn {
+    cursor: pointer;
+    border: 0.3px solid black;
+    width: 25%;
+    height: 78px;
+    font-size: 16px;
+}
+
+.cal-btn:hover{
+    border: 0.3px solid gray;
+    box-shadow: 0px 0px 20px 0px #aaa;
+}
+
+.firstrow{
+    display: flex;
+    justify-content: center;
+}
+
+.secondrow {
+    display: flex;
+    justify-content: center;
+}
+
+.thirdrow {
+    display: flex;
+    justify-content: center;
+}
+
+.fourthrow {
+    display: flex;
+    justify-content: center;
+}
+
+.fifthrow {
+    display: flex;
+    justify-content: center;
+}
+
+.display-container {
+    height: 127px;
+    background: #1C191C;
+}
+
+.orange-btn {
+    background: #FB9518;
+    color: white;
+    font-size: 24px;
+}
+
+.dark-btn {
+    background: #C4C3CC;
+}
+
+.special-btn {
+    width: 50%;
+}
+
+.display{
+    background: black;
+    width: 87%;
+    border: 1px;
+    text-align: right;
+    margin: auto;
+    padding: 48px 20px;
+    color: white;
+    font-size: 57px;
+}
+
+.popup {
+    background: red;
+    margin-top: 60px;
+    position: fixed;
+}
+
+.popup-text{
+    color: white;
+    padding: 22px;
+    font-size: 22px;
+}
+
+.popup-btn {
+    cursor: pointer;
+    background: red;
+    float: right;
+    border: 1px;
+    font-size: 22px;
+    color: white;
+}
