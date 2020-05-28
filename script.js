@@ -58,13 +58,10 @@ window.onload = function(){
 
     }
 
-function removePopup(){
+function removepopup(){
     errorPopup.style.display = "none";
 }
 
-function add(x, y){
-    return x + y;
-}
 
 
     
